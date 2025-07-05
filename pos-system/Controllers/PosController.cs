@@ -1,29 +1,29 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
-using Test.Services.DBContext;
-using Test.Services.Services;
+using POS.Services.DBContext;
+using POS.Services.Services;
 using System.Security.Cryptography.Xml;
 using System.Xml.Serialization;
 using System.Xml;
 using System.Xml.Linq;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
-using Busy2184;
+//using Busy2184;
 using ES_POS_BUSY.Services.DBContext;
 
-namespace Test.Web.Controllers
+namespace POS_System.Controllers
 {
     //https://localhost:1234/api/test
     [EnableCors("CorsPolicy")]
     [Route("api/[action]")]
     [ApiController]
 
-    public class TestController : ControllerBase
+    public class PosController : ControllerBase
     {
         public readonly IRepository _service;
 
-        public TestController(IRepository service)
+        public PosController(IRepository service)
         {
 
             this._service = service;

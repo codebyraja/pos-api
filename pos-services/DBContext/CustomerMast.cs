@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Test.Services.DBContext
+namespace POS.Services.DBContext
 {
     public partial class CustAttachDt
     {

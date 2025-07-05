@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace Test.Web.Controllers
+namespace POS_System.Controllers
 {
     [ApiController]
     [Route("[controller]")]

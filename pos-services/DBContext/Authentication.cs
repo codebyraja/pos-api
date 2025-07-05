@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ES_DMS.Services.DBContext
+namespace POS.Services.DBContext
 {
     public  class Authentication
     {

@@ -1,4 +1,4 @@
-namespace Test.Web
+namespace POS_System
 {
     public class WeatherForecast
     {

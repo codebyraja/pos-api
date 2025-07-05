@@ -13,18 +13,18 @@ using System.Buffers.Text;
 using System.Collections;
 using Microsoft.Extensions.Logging;
 using System.Reflection;
-using Test.Services.DBContext;
 using ES_POS_BUSY.Services.DBContext;
+using POS.Services.DBContext;
 
-namespace Test.Services.Services
+namespace POS.Services.Services
 {
     public class Repository : IRepository
     {
 
-        public readonly TestDBContext _db;
+        public readonly POSDBContext _db;
 
         public readonly BusyDBContext _busyDb;
-        public Repository(TestDBContext db, BusyDBContext busyDB)
+        public Repository(POSDBContext db, BusyDBContext busyDB)
         {
             this._db = db;
             this._busyDb = busyDB;

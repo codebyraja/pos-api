@@ -4,10 +4,10 @@ using System.Linq;
 using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
-using Test.Services.DBContext;
+using POS.Services.DBContext;
 using ES_POS_BUSY.Services.DBContext;
 
-namespace Test.Services.Services
+namespace POS.Services.Services
 {
     public interface IRepository
     {

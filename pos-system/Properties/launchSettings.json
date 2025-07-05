@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "Test.Web": {
+    "POS_System": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

@@ -1,8 +1,8 @@
 using ES_POS_BUSY.Services.DBContext;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Migrations;
-using Test.Services.DBContext;
-using Test.Services.Services;
+using POS.Services.DBContext;
+using POS.Services.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,7 +15,7 @@ builder.Services.AddSwaggerGen();
 //private readonly string _policyName = "CorsPolicy";
 
 //Register Connection Class
-builder.Services.AddDbContext<TestDBContext>(options =>
+builder.Services.AddDbContext<POSDBContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("Constr")));
 
 builder.Services.AddDbContext<BusyDBContext>(options =>
@@ -32,14 +32,6 @@ builder.Services.AddCors(opt =>
             .AllowAnyMethod();
     });
 });
-
-
-////enable cors policy Any Demon
-//builder.Services.AddCors(p => p.AddPolicy("corsPolicy", build =>
-//{
-//    build.WithOrigins("*").AllowAnyMethod().AllowAnyHeader();
-//}));
-
 
 var app = builder.Build();
 

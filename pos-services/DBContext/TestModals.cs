@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Reflection;
 
-namespace Test.Services.DBContext
+namespace POS.Services.DBContext
 {
     public partial class Response
     {

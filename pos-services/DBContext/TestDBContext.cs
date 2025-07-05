@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace Test.Services.DBContext;
+namespace POS.Services.DBContext;
 
-public partial class TestDBContext : DbContext
+public partial class POSDBContext : DbContext
 {
-    public TestDBContext(DbContextOptions<TestDBContext> options)
+    public POSDBContext(DbContextOptions<POSDBContext> options)
         : base(options)
     {
     }

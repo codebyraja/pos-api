@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Test.Services.Document
+namespace POS.Services.Document
 {
     internal class Documents
     {

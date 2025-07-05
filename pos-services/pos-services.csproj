@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ES_POS_BUSY.Services\ES_POS_BUSY.Services.csproj" />
+    <ProjectReference Include="..\busy-services\busy-services.csproj" />
   </ItemGroup>
 
 </Project>

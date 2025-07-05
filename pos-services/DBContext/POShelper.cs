@@ -7,7 +7,7 @@ using System.Xml;
 using System.Xml.Serialization;
 
 
-namespace Test.Services.DBContext
+namespace POS.Services.DBContext
 {
     internal class POShelper
     {
